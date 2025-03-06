@@ -6,7 +6,7 @@ export default function App() {
   const renderProduct = ({item}) => <ProductCard product={item} />
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.headerText}>PatikaStore</Text>
+      <Text style={styles.headerText}>Patika Store</Text>
       <TextInput style={styles.textInput} placeholder='Ara...'/>
       <FlatList
       numColumns={2}
